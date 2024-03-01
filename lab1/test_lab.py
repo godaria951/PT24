@@ -1,5 +1,5 @@
 import math
-import pytest
+from lab import pytest
 
 # Function to calculate y
 def calculate_y(a, b, c):
