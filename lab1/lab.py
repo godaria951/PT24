@@ -12,5 +12,5 @@ if c!=0:
 else:
     print ("некоректне значення") 
     c=int(input("Ведіть c:="))
-y= 3*2+8*6
+y= a+b-c
 print(y)
