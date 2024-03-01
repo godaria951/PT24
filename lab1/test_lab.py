@@ -1,10 +1,13 @@
 import pytest
-from lab import repeat_string
-def repeat_string(string, n):
-    return string * n
+from lab import multiply_string 
 
-def test_repeat_string():
-    n = 5
-    string = "Hello World "
-    expected_result = "Hello World Hello World Hello World Hello World Hello World "
-    assert repeat_string(string, n) == expected_result
+def multiply_string(s, n):
+    return s * n
+
+class TestMultiplyString(pytest.TestCase):
+    def test_multiply_string(self):
+        self.assertEqual(multiply_string("Hello World ", 5), "Hello World Hello World Hello World Hello World Hello World ")
+
+if __name__ == "__main__":
+    pytest.main()
+
