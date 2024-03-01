@@ -1,13 +1,10 @@
 from lab import  math
-import pytest -s
-
-def inc(x):
-    return x + 1
-
-def test_answer():
-    assert inc(3) == 5
-
-   
+import pytest 
 
 
+def test_y():
+    a = 5
+    b = 3
+    c = 2
+    assert y == a + b - c
 
