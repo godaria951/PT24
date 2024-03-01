@@ -1,5 +1,5 @@
 import pytest
-from 1
+from lab
 def multiply_string(s, n):
     return s * n
 
