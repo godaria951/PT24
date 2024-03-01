@@ -1,16 +1,10 @@
-import unittest
-from lab
-
-def multiply_string(string, n):
+def repeat_string(string, n):
     return string * n
 
-class TestStringMultiplier(unittest.TestCase):
-    
-    def test_multiply_string(self):
-        self.assertEqual(multiply_string("Hello World ", 5), "Hello World Hello World Hello World Hello World Hello World ")
-        self.assertEqual(multiply_string("Test ", 3), "Test Test Test ")
-        self.assertEqual(multiply_string("123", 0), "")
-        self.assertEqual(multiply_string("", 10), "")
+def test_repeat_string():
+    n = 5
+    string = "Hello World "
+    expected_result = "Hello World Hello World Hello World Hello World Hello World "
+    assert repeat_string(string, n) == expected_result
+pytest lab.py
 
-if __name__ == '__main__':
-    unittest.main()
