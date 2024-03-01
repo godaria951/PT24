@@ -1,5 +1,5 @@
 from lab import  math
-import pytest
+import pytest -s
 
 def inc(x):
     return x + 1
