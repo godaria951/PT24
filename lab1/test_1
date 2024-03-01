@@ -1,11 +1,11 @@
-import unittest
-
+import pytest
+from 1
 def multiply_string(s, n):
     return s * n
 
-class TestMultiplyString(unittest.TestCase):
+class TestMultiplyString(pytest.TestCase):
     def test_multiply_string(self):
         self.assertEqual(multiply_string("Hello World ", 5), "Hello World Hello World Hello World Hello World Hello World ")
 
 if __name__ == "__main__":
-    unittest.main()
+    pytest.main()
