@@ -12,5 +12,5 @@ if c!=0:
 else:
     print ("некоректне значення") 
     c=int(input("Ведіть c:="))
-y=(math.sin(2*a)/(a-3))+(math.atan(b)/c)
+y= 3*2+8*6
 print(y)
