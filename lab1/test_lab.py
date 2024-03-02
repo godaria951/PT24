@@ -1,5 +1,5 @@
 from lab import  math, add
-import pytest -s
+import pytest 
 
 
 def test_add():
