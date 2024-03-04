@@ -1,4 +1,4 @@
-from my module import pytest
+from my_module import pytest
 
 def divide(a, b):
     if b != 0:
